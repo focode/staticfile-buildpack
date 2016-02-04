@@ -22,7 +22,7 @@ translated_url=$($compile_buildpack_dir/compile-extensions/bin/download_dependen
 echo "Downloaded [$translated_url]"
 compile_nginx_tgz="/tmp/nginx.tgz"
 cd $build_dir
-echo "helloworld from the compile script"
+echo "helloworld from the compile script arunesh"
 # Alternate root location (default is root of project) for html/js/css
 # root: dist/
 if [[ "$(grep root: Staticfile)X" != "X" ]]; then
